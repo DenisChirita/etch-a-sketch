@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/reset.css" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <title> Etch a sketch </title>
+    <script src="script.js" defer>  </script>
+</head>
+
+<body>
+    <div id="title">
+        <h1>
+        Etch-a-sketch
+        </h1>
+    </div>
+    <div id="menu-container">
+        <button id="reset-button" class="button">
+            Reset
+        </button>
+        <button id="eraser-button" class="button">
+            Eraser
+        </button>
+        <button id="rainbow-button" class="button">
+            Rainbow
+        </button>
+        <button id="color-button" class="button">
+            Pick
+        <input type="color" id="color-picker" name="color-picker">
+        </button>
+    </div>
+    <div id="main-container">
+        <div id="table">
+        </div>
+    </div>
+    <div id="slide-container">
+        <input type="range" min="3" max="100" step="1" class="slider" id="slider">
+    </div>
+    <p id="slider-paragraph"> 52 x 52 </p>
+</body>
+
+</html>
