@@ -77,7 +77,4 @@ slider.onchange = function () {
 colorPicker.onchange = function () {
     currentColor = this.value;
 }
-
-window.onload = () => {
     createTable();
-}
